@@ -20,3 +20,4 @@ gem "cpf_cnpj"
 gem "blabla"
 gem 'rspec-retry'
 gem 'capybara_table'
+gem 'cpf_faker'
