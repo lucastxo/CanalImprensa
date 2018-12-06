@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de Tags
     Cenário: Editar tag com nome já cadastrado
     Quando eu edito uma tag com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de edicao de tag deve aparecer "Já existe uma Tag com essa descrição, por favor escolher outra."
+    Então a seguinte mensagem de edicao de tag deve aparecer "Já existe uma Tag com essa descrição, favor escolher outra."
 
     Cenário: Editar situação do tag
     Quando eu troco a situação do tag

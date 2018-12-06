@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de Assuntos
     Cenário: Editar assunto com nome já cadastrado
     Quando eu edito um assunto com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de edicao de assunto deve aparecer "Já existe um Assunto com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de edicao de assunto deve aparecer "Já existe um Assunto com esse nome, favor escolher outro."
 
     Cenário: Editar situação do assunto
     Quando eu troco a situação do assunto

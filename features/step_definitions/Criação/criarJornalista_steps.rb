@@ -21,12 +21,12 @@ Quando("eu cadastro um jornalista com os seguintes dados:") do |table|
     end
     find('#txtCpf').set "000.000.000-00"
     find('#txtCpf').set CPF
+    select('Jornalista', :from => 'tipoJornalista')
 
-    
+    fill_in('txtDataNascimento', :with => '00000000')
     fill_in('txtDataNascimento', :with => @jornalista[:data])
     select(@jornalista[:sexo], :from => 'IdSelectSexo')
     fill_in('txtRegistroMTB', :with => @jornalista[:MTB])
-
     if !@jornalista[:midia].to_s.empty?
         select(@jornalista[:midia], :from => 'IdSelectMidias')
     end

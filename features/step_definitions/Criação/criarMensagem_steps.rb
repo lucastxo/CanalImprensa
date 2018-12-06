@@ -24,6 +24,7 @@ Quando("eu cadastro uma mensagem com os seguintes dados:") do |table|
 end
   
 Então("a seguinte mensagem de cadastro de mensagem deve aparecer {string}") do |mensagem_alerta|
+    binding.pry
     expect(page).to have_css("[id$=Dialogo]", :text => mensagem_alerta, visible: true)
     mensagemExibida = find("[id$=Dialogo]", visible: true, match: :first).text # variavel que le o conteudo da mensagem do modal
     puts(mensagemExibida)

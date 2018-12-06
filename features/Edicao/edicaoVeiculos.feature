@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de veiculo
     Cenário: Editar veiculo com nome já cadastrado
     Quando eu edito um veiculo com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de edicao de veiculo deve aparecer "Já existe um veículo de comunicação com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de edicao de veiculo deve aparecer "Já existe um veículo de comunicação com esse nome, favor escolher outro."
 
     Cenário: Editar situação do veiculo
     Quando eu troco a situação do veiculo

@@ -23,4 +23,4 @@ Contexto:Acessar tela de midias
     Cenário: Criar midia com nome já cadastrado
     Quando eu cadastro uma midia com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem deve aparecer "Já existe uma mídia com esse nome, por favor escolher outro."
+    Então a seguinte mensagem deve aparecer "Já existe uma mídia com esse nome, favor escolher outro."

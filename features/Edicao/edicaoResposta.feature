@@ -32,4 +32,4 @@ Contexto:Acessar tela de edicao de Resposta
     Quando eu edito uma resposta com os seguintes dados:
     |categoria   |Teste Repetido |
     |resposta    |Teste Repetido |
-    Então a seguinte mensagem de edicao de resposta deve aparecer "por favor escolher outro."
+    Então a seguinte mensagem de edicao de resposta deve aparecer "favor escolher outro."

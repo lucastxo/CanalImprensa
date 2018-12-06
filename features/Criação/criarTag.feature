@@ -23,4 +23,4 @@ Contexto:Acessar tela de Tags
     Cenário: Criar tag com nome já cadastrado
     Quando eu cadastro uma tag com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de cadastro de tag deve aparecer "Já existe uma Tag com essa descrição, por favor escolher outra."
+    Então a seguinte mensagem de cadastro de tag deve aparecer "Já existe uma Tag com essa descrição, favor escolher outra."

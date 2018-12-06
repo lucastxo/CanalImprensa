@@ -32,4 +32,4 @@ Contexto:Acessar tela de mensagens
     Quando eu cadastro uma mensagem com os seguintes dados:
     | natureza    | Teste Repetido |
     | mensagem    | Teste Repetido |
-    Então a seguinte mensagem de cadastro de mensagem deve aparecer "Mensagem já existente, por favor alterar o texto."
+    Então a seguinte mensagem de cadastro de mensagem deve aparecer "Mensagem já existente, favor alterar o texto."

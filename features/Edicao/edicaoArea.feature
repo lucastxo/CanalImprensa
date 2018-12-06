@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de Areas
     Cenário: Editar area com nome já cadastrado
     Quando eu edito uma area com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de edicao de area deve aparecer "Já existe uma Área de Interesse com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de edicao de area deve aparecer "Já existe uma Área de Interesse com esse nome, favor escolher outro."
 
     Cenário: Editar situação do area
     Quando eu troco a situação do area

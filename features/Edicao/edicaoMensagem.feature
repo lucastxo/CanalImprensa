@@ -26,4 +26,4 @@ Contexto:Acessar tela de edicao de Mensagem
     Quando eu edito uma mensagem com os seguintes dados:
     | natureza    | Teste Repetido |
     | mensagem    | Teste Repetido |
-    Então a seguinte mensagem de edicao de mensagem deve aparecer "Mensagem já existente, por favor alterar o texto."
+    Então a seguinte mensagem de edicao de mensagem deve aparecer "favor alterar o texto."

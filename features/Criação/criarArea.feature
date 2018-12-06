@@ -23,4 +23,4 @@ Contexto:Acessar tela de areas
     Cenário: Criar area com nome já cadastrado
     Quando eu cadastro uma area com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de cadastro de area deve aparecer "Já existe uma Área de Interesse com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de cadastro de area deve aparecer "Já existe uma Área de Interesse com esse nome, favor escolher outro."

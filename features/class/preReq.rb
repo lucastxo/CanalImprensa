@@ -1,11 +1,11 @@
 class PreReq
     def PreReq.criarSolicitacao()
         find("[class$='icon-incluir-solicitacao'][href$='Solicitacao/Cadastrar']").click
-        select('Teste Repetido', :from => 'lstMidias')
-        select('Teste Repetido', :from => 'lstVeiculos')
-        find(:css, '[id$=lstJornalistas]' ).find(:option, 'Teste Nome', match: :first).select_option
-        select('Teste Repetido', :from => 'lstAreas')
-        select('Teste Repetido', :from => 'lstAssunto')
+        select('Globo', :from => 'lstMidias')
+        select('Televisão', :from => 'lstVeiculos')
+        find(:css, '[id$=lstJornalistas]' ).find(:option, 'Evaristo Costa', match: :first).select_option
+        select('criminalidade', :from => 'lstAreas')
+        select('O uso de tecnologias no trabalho do policial', :from => 'lstAssunto')
         select('Teste Repetido', :from => 'lstTags')
         fill_in('txtTextoSolicitacao', :with => 'Teste Texto')
 

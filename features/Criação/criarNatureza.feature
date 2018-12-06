@@ -23,4 +23,4 @@ Contexto:Acessar tela de natureza
     Cenário: Criar natureza com nome já cadastrado
     Quando eu cadastro uma natureza com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de cadastro de natureza deve aparecer "Já existe uma Natureza com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de cadastro de natureza deve aparecer "Já existe uma Natureza com esse nome, favor escolher outro."

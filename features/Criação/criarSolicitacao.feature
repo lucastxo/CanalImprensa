@@ -11,15 +11,15 @@ Contexto:Acessar tela de cadastro de Solicitacao
 
     Cenário: Criar uma solicitacao com as informacoes corretas
     Quando eu cadastro uma solicitacao com os seguintes dados:
-    | midia            | Teste Repetido     |
-    | veiculo          | Teste Repetido     |
-    | jornalista       | Teste Nome         |
-    | area             | Teste Repetido     |
-    | assunto          | Teste Repetido     |
-    | tags             | Teste Repetido     |
-    | texto            | Teste Texto        |
-    | data             | 1                  |
-    | hora             | 1                  |
+    | midia            | Globo                                        |
+    | veiculo          | Televisão                                    |
+    | jornalista       | Evaristo Costa                               |
+    | area             | criminalidade                                |
+    | assunto          | O uso de tecnologias no trabalho do policial |
+    | tags             | Teste Repetido                               |
+    | texto            | Teste Texto                                  |
+    | data             | 1                                            |
+    | hora             | 1                                            |
     Então a seguinte mensagem de cadastro de solicitacao deve aparecer "Pedido de informação enviado com sucesso!"
 
 
@@ -38,14 +38,14 @@ Contexto:Acessar tela de cadastro de Solicitacao
         Então a seguinte mensagem de cadastro de solicitacao deve aparecer "<saida>"
 
         Exemplos: 
-        | midia          | veiculo        | jornalista     | area           | assunto        | texto       | data | hora | saida                                                                      |
-        |                |                |                |                |                | Teste Texto | 1    | 1    | Nenhuma Mídia selecionada. Por favor selecionar uma opção.                 | 
-        | Teste Repetido |                |                |                |                | Teste Texto | 1    | 1    | Nenhum Veículo de Comunicação selecionado. Por favor selecionar uma opção. |
-        | Teste Repetido | Teste Repetido |                |                |                | Teste Texto | 1    | 1    | Nenhum Jornalista selecionado. Por favor selecionar uma opção.             |
-        | Teste Repetido | Teste Repetido | Teste Nome     |                |                | Teste Texto | 1    | 1    | Nenhuma Área de Interesse selecionada. Por favor selecionar uma opção.     |
-        | Teste Repetido | Teste Repetido | Teste Nome     | Teste Repetido |                | Teste Texto | 1    | 1    | Nenhum Assunto selecionado. Por favor selecionar uma opção.                |
-        | Teste Repetido | Teste Repetido | Teste Nome     | Teste Repetido | Teste Repetido |             | 1    | 1    | Texto da Solicitação não informado. Favor preenchê-lo.                     |
-        | Teste Repetido | Teste Repetido | Teste Nome     | Teste Repetido | Teste Repetido | Teste Texto | 0    | 1    | Prazo não informado.                                                       |
-        | Teste Repetido | Teste Repetido | Teste Nome     | Teste Repetido | Teste Repetido | Teste Texto | 1    | 0    | Prazo não informado.                                                       | 
+        | midia | veiculo   | jornalista     | area          | assunto                                      | texto       | data | hora | saida                                                                      |
+        |       |           |                |               |                                              | Teste Texto | 1    | 1    | Nenhuma Mídia selecionada. Favor selecionar uma opção.                     | 
+        | Globo |           |                |               |                                              | Teste Texto | 1    | 1    | Nenhum Veículo de Comunicação selecionado. Favor selecionar uma opção.     |
+        | Globo | Televisão |                |               |                                              | Teste Texto | 1    | 1    | Nenhum Jornalista selecionado. Favor selecionar uma opção.                 |
+        | Globo | Televisão | Evaristo Costa |               |                                              | Teste Texto | 1    | 1    | Nenhuma Área de Interesse selecionada. Favor selecionar uma opção.         |
+        | Globo | Televisão | Evaristo Costa | criminalidade |                                              | Teste Texto | 1    | 1    | Nenhum Assunto selecionado. Favor selecionar uma opção.                    |
+        | Globo | Televisão | Evaristo Costa | criminalidade | O uso de tecnologias no trabalho do policial |             | 1    | 1    | Texto da Solicitação não informado. Favor preenchê-lo.                     |
+        | Globo | Televisão | Evaristo Costa | criminalidade | O uso de tecnologias no trabalho do policial | Teste Texto | 0    | 1    | Prazo não informado.                                                       |
+        | Globo | Televisão | Evaristo Costa | criminalidade | O uso de tecnologias no trabalho do policial | Teste Texto | 1    | 0    | Prazo não informado.                                                       | 
 
    

@@ -23,4 +23,4 @@ Contexto:Acessar tela de assuntos
     Cenário: Criar assunto com nome já cadastrado
     Quando eu cadastro um assunto com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de cadastro de assunto deve aparecer "Já existe um Assunto com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de cadastro de assunto deve aparecer "Já existe um Assunto com esse nome, favor escolher outro."

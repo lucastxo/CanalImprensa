@@ -32,4 +32,4 @@ Contexto:Acessar tela de respostas
     Quando eu cadastro uma resposta com os seguintes dados:
     |categoria   |Teste Repetido |
     |resposta    |Teste Repetido |
-    Então a seguinte mensagem de cadastro de resposta deve aparecer "por favor escolher outro."
+    Então a seguinte mensagem de cadastro de resposta deve aparecer "favor escolher outro."

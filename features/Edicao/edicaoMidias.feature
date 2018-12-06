@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de midias
     Cenário: Editar midia com nome já cadastrado
     Quando eu edito uma midia com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de aviso deve aparecer "Já existe uma mídia com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de aviso deve aparecer "Já existe uma mídia com esse nome, favor escolher outro."
 
     Cenário: Editar situação da midia
     Quando eu troco a situação da midia

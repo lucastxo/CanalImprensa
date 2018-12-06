@@ -23,7 +23,7 @@ Contexto:Acessar tela de edicao de Natureza
     Cenário: Editar natureza com nome já cadastrado
     Quando eu edito uma natureza com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de edicao de natureza deve aparecer "Já existe uma Natureza com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de edicao de natureza deve aparecer "Já existe uma Natureza com esse nome, favor escolher outro."
 
     Cenário: Editar situação do natureza
     Quando eu troco a situação do natureza

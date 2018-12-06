@@ -23,4 +23,4 @@ Contexto:Acessar tela de veiculos
     Cenário: Criar veiculo com nome já cadastrado
     Quando eu cadastro um veiculo com os seguintes dados:
     |nome   |Teste Repetido|
-    Então a seguinte mensagem de veiculo deve aparecer "Já existe um veículo de comunicação com esse nome, por favor escolher outro."
+    Então a seguinte mensagem de veiculo deve aparecer "Já existe um veículo de comunicação com esse nome, favor escolher outro."

@@ -6,6 +6,7 @@ end
 Quando("eu vinculo area e assunto com os seguintes dados:") do |table|
     @vinculo = table.rows_hash
     if !@vinculo[:area].to_s.empty? and !@vinculo[:assunto].to_s.empty?
+        binding.pry
         select(@vinculo[:area], :from => 'comboSelecaoArea')
         select(@vinculo[:assunto], :from => 'lstAssuntosDisponiveis')
         find('[class$=dualListBox-add]').click
@@ -14,8 +15,11 @@ Quando("eu vinculo area e assunto com os seguintes dados:") do |table|
         select(@vinculo[:area], :from => 'comboSelecaoArea')
         find('[class$=dualListBox-removeAll]').click
     end
-
     find("[class$='icon-save']").click
+    exists = page.has_css?('[class*=dialogConfirm]', visible: true)
+    if exists == true
+        find('[class$="btnSimConfirma"]', visible: true).click
+    end
 end
   
 Então("a seguinte mensagem de vinculo de area e assunto deve aparecer {string}") do |mensagem_alerta|
@@ -33,4 +37,5 @@ Quando("eu desvinculo area e assunto com os seguintes dados:") do |table|
         find('[class$=dualListBox-remove]').click
     end
     find("[class$='icon-save']").click
+    find('[class$="btnSimConfirma"]', visible: true).click
 end

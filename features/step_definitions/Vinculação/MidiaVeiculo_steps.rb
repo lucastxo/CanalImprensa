@@ -15,8 +15,11 @@ Quando("eu vinculo midia e veiculo com os seguintes dados:") do |table|
         select(@vinculo[:midia], :from => 'comboSelecaoMidia')
         find('[class$=dualListBox-removeAll]').click
     end
-
     find("[class$='icon-save']").click
+    exists = page.has_css?('[class*=dialogConfirm]', visible: true)
+    if exists == true
+        find('[class$="btnSimConfirma"]', visible: true).click
+    end
 end
   
 Então("a seguinte mensagem de vinculo de area e veiculo deve aparecer {string}") do |mensagem_alerta|
@@ -33,4 +36,8 @@ Quando("eu desvinculo midia e veiculo com os seguintes dados:") do |table|
         find('[class$=dualListBox-remove]').click
     end
     find("[class$='icon-save']").click
+    exists = page.has_css?('[class*=dialogConfirm]', visible: true)
+    if exists == true
+        find('[class$="btnSimConfirma"]', visible: true).click
+    end
 end

@@ -14,6 +14,12 @@ class RealizaLogin
 		sleep(2)
 		page.driver.browser.close
 		page.driver.browser.switch_to.window(page.driver.browser.window_handles.last)
+		#Substitui o link de dev com o de Hom, poderá ser removido quando o apontamento acontecer
+		# url = URI.parse(current_url).to_s
+		# urlF = url.slice(84..115)
+		# urlI = 'http://vmwsishom01.cmdo.policiamilitar.sp.gov.br/Pmesp.CanalImprensaHom/Index/Index?'
+		# urlA = urlI + urlF
+		# visit(urlA)
 		Capybara.page.driver.browser.manage.window.maximize
 	end
 end
